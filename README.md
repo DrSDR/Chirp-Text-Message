@@ -57,5 +57,5 @@ msb is sent first
 good luck
 
 
-
+text message is a amazon claim code
 
