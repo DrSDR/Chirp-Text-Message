@@ -1,14 +1,26 @@
 fs = 48e3;
+
 bw = 12e3;
+
 pw = 50e-3;
+
 slope = bw / pw;
+
 ts = 1/fs;
+
 t = [ts:ts:pw];
+
 t = t - (pw/2);
+
 bit1 = exp(1i*pi*slope*t.^2);
+
 bit0 = exp(-1i*pi*slope*t.^2);
+
 nsig = length(bit0);
+
 txsig = zeros(Nbits,nsig);
+
+
 
 
 number of bits = 144
