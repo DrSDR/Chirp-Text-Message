@@ -12,9 +12,9 @@ t = [ts:ts:pw];
 
 t = t - (pw/2);
 
-bit1 = exp(1i*pi*slope*t.^2);
+bit1 = exp(1i * pi * slope* t.^2);
 
-bit0 = exp(-1i*pi*slope*t.^2);
+bit0 = exp(-1i * pi * slope* t.^2);
 
 nsig = length(bit0);
 
